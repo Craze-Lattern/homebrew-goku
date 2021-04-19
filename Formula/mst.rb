@@ -8,8 +8,7 @@ class Mst < Formula
 
   bottle do
     root_url 'https://github.com/guoyuan94/mst/releases/download/0.3.0'
-    cellar :any_skip_relocation
-    sha256 '5c26cb2b39f8eba16b479a85a1d25ea63b078308dabb8fef4eb00894b9a9d3d8' => :mojave
+	sha256 cellar :any_skip_relocation, mojave: '5c26cb2b39f8eba16b479a85a1d25ea63b078308dabb8fef4eb00894b9a9d3d8'
   end
 
   depends_on xcode: ['10.2', :build]
